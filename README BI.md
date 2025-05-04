@@ -1,9 +1,10 @@
-# **XGRIP Sales and Profit Analytics Dashboard**
+# **Ecommerce Sales Analysis**
 
 ![](https://github.com/najirh/XGRIP-Power-BI-Executive-Dashboard/blob/main/img1.png)
 
-### **Light and Dark Executive Dashboard**  
-![Light and Dark Mode](https://github.com/worksakshi/Ecommerce-Sales-Analysis-PowerBI-Dashboard/blob/main/image%201.PNG)
+### **Interactive Dashboard**  
+![Insight_1](https://github.com/worksakshi/Ecommerce-Sales-Analysis-PowerBI-Dashboard/blob/main/image%201.PNG)
+![Insight_2](https://github.com/worksakshi/Ecommerce-Sales-Analysis-PowerBI-Dashboard/blob/main/image%202.PNG)
 
 ---
 
