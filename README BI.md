@@ -9,7 +9,6 @@
 ---
 
 ## **Objective**  
-Design a scalable, interactive dashboard for an e-commerce business to monitor sales, payment insights, and product performance across countries and time periods. The dashboard is built on a robust data model and supports strategic decision-making by offering insights into revenue trends, payment behaviors, and regional performance.
 ---
 
 ## **Action**  
