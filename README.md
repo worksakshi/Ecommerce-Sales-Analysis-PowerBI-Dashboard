@@ -1,5 +1,6 @@
 # **Ecommerce Sales Analysis**
 
+### **Data Model** 
 ![](https://github.com/worksakshi/Ecommerce-Sales-Analysis-PowerBI-Dashboard/blob/main/Data%20Model%20View.PNG)
 
 ### **Interactive Dashboard**  
@@ -49,3 +50,5 @@ The dashboard provides clear and actionable insights into sales, profits, and pr
 1. Importance of a clean, star-schema data model for high performance in Power BI.
 2. Techniques for using DAX to calculate time-based metrics and profit-related KPIs.
 3. How to integrate external media like product and flag images dynamically.
+
+   
