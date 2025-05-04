@@ -51,8 +51,7 @@ The dashboard provides clear and actionable insights into sales, profits, and pr
 2. Techniques for using DAX to calculate time-based metrics and profit-related KPIs.
 3. How to integrate external media like product and flag images dynamically.
 
-## **Access the Dashboard**  
-Explore the live dashboard here: **[Link to Online Reports Page](https://app.powerbi.com/links/d_grk3Af43?ctid=bbc2175e-52d1-4ed6-bc3a-3ac479f5839d&pbi_source=linkShare)**  
+
 
 
    
