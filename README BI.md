@@ -1,6 +1,6 @@
 # **Ecommerce Sales Analysis**
 
-![](https://github.com/najirh/XGRIP-Power-BI-Executive-Dashboard/blob/main/img1.png)
+![](https://github.com/worksakshi/Ecommerce-Sales-Analysis-PowerBI-Dashboard/blob/main/Data%20Model%20View.PNG)
 
 ### **Interactive Dashboard**  
 ![Insight_1](https://github.com/worksakshi/Ecommerce-Sales-Analysis-PowerBI-Dashboard/blob/main/image%201.PNG)
