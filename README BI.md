@@ -9,20 +9,19 @@
 ---
 
 ## **Objective**  
-Create an interactive, user-friendly dashboard for XGRIP, a company specializing in mobile phone accessories. The dashboard integrates multi-source data, standardizes currencies, and provides detailed insights into sales, profits, product performance, and returns. It aims to streamline data analysis, helping stakeholders make informed business decisions.
-
+Design a scalable, interactive dashboard for an e-commerce business to monitor sales, payment insights, and product performance across countries and time periods. The dashboard is built on a robust data model and supports strategic decision-making by offering insights into revenue trends, payment behaviors, and regional performance.
 ---
 
 ## **Action**  
 
-### **Key Features**  
-- **Data Integration:** Unified data from PostgreSQL, MySQL, Excel, CSV, and PDF formats.  
-- **Currency Standardization:** Converted diverse currencies to USD for consistency across regions.  
-- **Profitability Analysis:** Incorporated COGS, discounts, and quantities for accurate profit metrics.  
-- **Interactive Dashboards:** Added slicers, custom panes, and drillthrough buttons for in-depth analysis.  
-- **Scheduled Data Refresh:** Enabled seamless updates through Power BI Gateway.  
-- **Advanced DAX Calculations:** Created KPIs for revenue, profit margin, and YoY sales growth.  
-- **Row-Level Security (RLS):** Secured sensitive data based on user roles.
+### **Key Features**   
+- **Central Fact Table**: factEcommerce contains core transactional data like sales, orders, dates, country, product, and payment details.
+- **Dimensional Tables**: Linked dimension tables (e.g., dimProducts, dimCountry, dimPayment Method, and Calendar) support flexible 
+  filtering and drill-down.
+- **Interactive Dashboards**: Users can explore KPIs with slicers by product, continent, payment method, and time.
+- **Custom Visualizations**: Used maps, bar charts, and card visuals to highlight sales by country, category, and time.
+- **Dynamic DAX Measures**: Calculated revenue, total orders, average order value, and monthly trends.
+- **Image Integration**: Displayed product and country flag images directly within the dashboard using image URLs from external CSV files.
 
 ### **Technology Stack**  
 - **Data Sources:** PostgreSQL, MySQL, Excel, CSV, PDF.  
@@ -31,14 +30,14 @@ Create an interactive, user-friendly dashboard for XGRIP, a company specializing
 
 ### **Execution Steps**  
 
-1. **Data Integration:** Connected to various sources (PostgreSQL, MySQL, Excel, CSV, and PDFs) for a comprehensive dataset.  
-2. **Data Standardization:** Converted local currencies to USD using exchange rates for consistent reporting.  
-3. **Data Modeling:** Established relationships between tables, merged product data, and calculated profitability.  
-4. **Dashboard Design:** Developed interactive dashboards with multiple pages and visualizations like donut charts, bar charts, and maps.  
-5. **Advanced Calculations:** Created dynamic DAX measures for KPIs such as revenue, profit, and YoY growth.  
-6. **Automation & Security:** Implemented automated data refresh and configured RLS for secure data access.
+1. **Data Modeling**: Built a star schema with factEcommerce as the central table, ensuring referential integrity through one-to-many relationships.
+2. **Data Cleaning & Transformation**: Cleaned data using Power Query, standardized naming, and ensured data types and keys were consistent.
+3. **Visualization**: Developed multi-page reports with performance metrics, including maps for regional analysis and charts for payment trends.
+4. **Image Mapping**: Merged product and country flag images using Product ID and Country as keys, allowing for enriched visuals.
+5. **Time Intelligence**: Used the Calendar table to support YoY and MoM growth analysis.
+6. **User Experience Design**: Included bookmarks for better usability.
 
----
+
 
 ## **Impact**  
 
@@ -47,11 +46,6 @@ The dashboard provides clear and actionable insights into sales, profits, and pr
 ---
 
 ## **Key Learnings**  
-- **Multi-Source Integration:** Gained expertise in unifying data from diverse formats and platforms.  
-- **Advanced Data Transformation:** Enhanced skills in Power Query for effective data cleaning and merging.  
-- **DAX Proficiency:** Mastered complex DAX calculations for dynamic business insights.  
-- **Interactive Design:** Developed user-centric dashboards with an emphasis on interactivity and usability.  
-- **Automation & Security:** Learned to automate data refresh and implement security features like RLS.
 
 ---
 
